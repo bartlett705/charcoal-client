@@ -6,7 +6,10 @@ export enum StanceIndustriesLocation {
     Front = "stance-industries.front",
     About = "stance-industries.about"
 }
-type PageviewLocation = HamsNearMeLocation | StanceIndustriesLocation;
+export enum EmojiGalleryLocation {
+  Front = "emoji-gallery.front",
+}
+type PageviewLocation = HamsNearMeLocation | StanceIndustriesLocation | EmojiGalleryLocation;
 export interface PageviewParams {
   location: PageviewLocation;
 }
