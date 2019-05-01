@@ -56,6 +56,10 @@ var StanceIndustriesLocation;
     StanceIndustriesLocation["Front"] = "stance-industries.front";
     StanceIndustriesLocation["About"] = "stance-industries.about";
 })(StanceIndustriesLocation = exports.StanceIndustriesLocation || (exports.StanceIndustriesLocation = {}));
+var EmojiGalleryLocation;
+(function (EmojiGalleryLocation) {
+    EmojiGalleryLocation["Front"] = "emoji-gallery.front";
+})(EmojiGalleryLocation = exports.EmojiGalleryLocation || (exports.EmojiGalleryLocation = {}));
 var ENDPOINT = "https://chaitown.mosey.systems/track";
 exports.trackPageview = function (params) { return track(params, "pageview"); };
 exports.trackClick = function (params) { return track(params, "click"); };
